@@ -11,3 +11,17 @@ function restar() {
     const resultado = minuendo - sustraendo;
     alert(resultado);
 }
+
+function multiplicar(){
+    const productoPrimerNumero = Number(document.getElementById("productoPrimerNumero").value);
+    const productoSegundoNumero = Number(document.getElementById("productoSegundoNumero").value);
+    const resultado = productoPrimerNumero * productoSegundoNumero;
+    alert(resultado);
+}
+
+function dividir(){
+    const dividendo = Number(document.getElementById("dividendo").value);
+    const divisor = Number(document.getElementById("divisor").value);
+    const resultado = dividendo / divisor;
+    alert(resultado);
+}
